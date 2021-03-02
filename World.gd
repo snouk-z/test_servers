@@ -40,6 +40,7 @@ func add_mesh() -> void:
 	var scenario: RID = get_world().scenario
 	VisualServer.instance_set_scenario(_instance, scenario)
 
+# works in GDScript with no problem
 func add_collision() -> void:
 	var vertices := PoolVector3Array([
 		Vector3(-5, 0, -5),

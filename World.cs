@@ -45,6 +45,7 @@ public class World : Spatial
         VisualServer.InstanceSetScenario(_instance, scenario);
     }
 
+    // part of the code that shows the PhysicsServer issue
     private void AddCollision()
     {
         Vector3[] vertices = new Vector3[] {
